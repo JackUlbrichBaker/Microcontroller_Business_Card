@@ -1,2 +1,21 @@
 # Microcontroller_Business_Card
 A cheap simple business card with an embedded microcontroller
+
+# Why?
+I saw some really cool business cards with embedded projects and got jealous. I started this project with the aim of creating the cheapest (utilizing widely availiable parts) business card with an embedded microcontroller
+
+# Part choices:
+Capacitors and resistors:
+I used 0402 capacitors and resistors to acheive a balance easy and cheap to source yet easily solderable by hand.  The only departure from this was the 0805 capacitor connected to the 3.3V supply, as the higher capacitance capacitors don't typically come in a 0402 package.
+
+RP2040:
+I used a RP2040 microcontroller due to its low cost and widespread availiability as well as its ubiquitous software. As the current silicon supply issues impact IC procurement I wanted to use a chip that could be ordered at any time.
+
+FLash memory:
+The W25Q128JVSIQ memory was chosen primarily as it was the suggested memory in the RP2040 datasheet, but also due to it's low cost and ubitquitous nature.
+
+LEDs:
+I selected these LEDs as they are extremely cheap individually addressable LEDs with a widely supported standard for interfacing (NEOPIXELS) when sourced from LCSC the individual cost per LED goes down to $0.014, while still allowing individual LED adressability. The final benefit of these LED's is that they only take up one pin of the microcontroller so are a no-brainer to include.
+
+# Schematic: 
+![Schematic_Business Card_2023-02-22](https://user-images.githubusercontent.com/87808632/220504306-95833c88-469a-4197-89e8-628704732c90.png)
