@@ -19,3 +19,11 @@ I selected these LEDs as they are extremely cheap individually addressable LEDs 
 
 # Schematic: 
 ![Schematic_Business Card_2023-02-22](https://user-images.githubusercontent.com/87808632/220504306-95833c88-469a-4197-89e8-628704732c90.png)
+
+
+# V1.0 PCB
+Below are prototypes of the business card with basic layout and sub-optimal font/design:
+
+- ![PXL_20230302_072053540](https://user-images.githubusercontent.com/87808632/223000269-8d1550bf-e352-4d35-8aa5-759158c50401.jpg)
+- ![PXL_20230302_072237025](https://user-images.githubusercontent.com/87808632/223000271-c9dbdf17-92ad-4ffd-a155-f68f6b269bcc.jpg)
+- ![PXL_20230302_072205421_2](https://user-images.githubusercontent.com/87808632/223000260-496599bd-e7b4-4e50-b132-2a7805a77b1a.jpg)
